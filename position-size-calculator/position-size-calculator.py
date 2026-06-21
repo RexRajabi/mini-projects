@@ -1,3 +1,4 @@
+# Position size calculator v1.0
 capital = float(input("Capital: "))
 risk_percent = float(input("Risk %: "))
 entry = float(input("Entry: "))

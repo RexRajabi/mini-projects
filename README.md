@@ -14,7 +14,7 @@ This repository is my personal playground for trying out ideas, exploring new co
 ```bash
 ./cipher -e "hello" 3   # Encrypt
 ./cipher -d "khoor" 3   # Decrypt
-
+```
 ### 📊 Position Size Calculator
 - **Path**: [`position-size-calculator/`](position-size-calculator/)
 - **Status**: 🚧 Under Development (v1.0)

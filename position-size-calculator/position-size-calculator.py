@@ -1,4 +1,4 @@
-# Position Size Calculator v1.0
+# Position Size Calculator v2.0
 import os
 
 def clear_screen():
@@ -118,7 +118,7 @@ def main():
     while True:
         clear_screen()
         print("\n" + "="*60)
-        print("  📊 POSITION SIZE CALCULATOR v1.0")
+        print("  📊 POSITION SIZE CALCULATOR v2.0")
         print("="*60)
         print("\n  [1] Calculate Position Size")
         print("  [2] Help / Documentation")

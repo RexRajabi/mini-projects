@@ -2,7 +2,7 @@
 import os
 
 def clear_screen():
-    """Clear the terminal screen for better readability"""
+    """Clears the terminal"""
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def show_help():
@@ -13,17 +13,19 @@ def show_help():
     print("\n📌 WHAT IT DOES:")
     print("  Calculates the optimal position size (lot size) for your trades")
     print("  based on your risk management rules.")
-    
+    print("  Really usefull in Forex matket for getting into position.")
+    #==========
     print("\n📋 INPUT PARAMETERS:")
     print("  • Capital        : Your total account balance")
     print("  • Risk %         : Percentage of capital you're willing to risk")
     print("  • Stop Loss (pips): Distance from entry to stop loss in pips")
     print("  • Pip Value      : Monetary value of 1 pip for your instrument")
-    
+    print("\t(You can find the value via checking your broker \n\t or just a simple search in google)")
+    #==========
     print("\n🧮 FORMULA:")
     print("  Risk Amount = Capital × (Risk% / 100)")
     print("  Lot Size = Risk Amount / (Pip Value × Stop Loss in Pips)")
-    
+    #==========
     print("\n💡 EXAMPLE:")
     print("  Capital: $10,000")
     print("  Risk %: 2%")
@@ -31,15 +33,15 @@ def show_help():
     print("  Pip Value: $10")
     print("  → Risk Amount: $200")
     print("  → Lot Size: 0.40")
-    
+    #==========
     print("\n⚠️  IMPORTANT NOTES:")
     print("  • Always risk 1-2% per trade for proper risk management")
-    print("  • Pip value varies by instrument (Forex, indices, crypto, etc.)")
+    print("  • Pip value varies by instrument \n   (Forex(XAU/USD, EUR/USD, etc.), indices, crypto, etc.)")
     print("  • Round down lot size to match broker minimums")
-    
+    #==========
     print("\n" + "="*60)
     input("\nPress Enter to return to menu...")
-
+    #==========
 def calculate_position():
     """Calculate position size based on user inputs"""
     print("\n" + "="*60)

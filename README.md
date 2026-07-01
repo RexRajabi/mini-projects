@@ -20,7 +20,7 @@ This repository is my personal playground for trying out ideas, exploring new co
 - **Status**: Just published the first clean version (v2.0)
 - A risk management tool that calculates optimal position size based on capital, risk percentage and stoploss.
 - **Under development features 🚧**: tick base calculation, Storing the history of calculations.
-### Brute Force ASCII Tool
+### 🔓 Brute Force ASCII Tool
 
 A simple Python script that takes a word and applies ASCII shifts from 1 to 57, displaying all possible combinations.
 
